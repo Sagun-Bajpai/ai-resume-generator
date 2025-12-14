@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#output {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  white-space: pre-line;
+}
+#copyBtn {
+  margin-top: 10px;
+  background: #28a745;
+}
+
+#copyBtn:hover {
+  background: #1e7e34;
+}
